@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {"node": "6.10"}
+    }]
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "common": "./node_modules/common/app",
+        "project1": "./app"
+      }
+    }]
+  ]
+}
